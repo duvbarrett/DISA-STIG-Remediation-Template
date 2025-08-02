@@ -19,13 +19,15 @@ For this demonstration, in Azure, a Windows 10 virtual machine made named window
 Steps taken to weaken the VM prior to scan
 
 - Logged into VM and disabled firewall
-- <img width="568" height="306" alt="firewall down" src="https://github.com/user-attachments/assets/4d9d1839-328a-49a2-8ba5-0df195e429ef" />
+<img width="568" height="306" alt="firewall down" src="https://github.com/user-attachments/assets/4d9d1839-328a-49a2-8ba5-0df195e429ef" />
 
 - Create/enable administrator account, set password to “password” with no expiration and add it to the “administrators” group
-- <img width="390" height="387" alt="admin acc" src="https://github.com/user-attachments/assets/42b0029a-8559-466e-8e79-c3f021bcfd13" />
+
+<img width="390" height="387" alt="admin acc" src="https://github.com/user-attachments/assets/42b0029a-8559-466e-8e79-c3f021bcfd13" />
 
 - Add “guest” account to the “administrators” group, and enable it
-- <img width="398" height="454" alt="guest as admin" src="https://github.com/user-attachments/assets/36ca95bb-dce0-467c-9a23-ff26a8b0e330" />
+
+<img width="398" height="454" alt="guest as admin" src="https://github.com/user-attachments/assets/36ca95bb-dce0-467c-9a23-ff26a8b0e330" />
 
 
 # Tenable Scan 
@@ -37,22 +39,25 @@ Steps taken to weaken the VM prior to scan
 
 - For full compliance auditing, authentication credentials were added. Under Host > Windows, credentials for the Windows account were supplied and all relevant settings under Scan-wide Credential Type Settings were enabled.
   
-- <img width="601" height="466" alt="scan config" src="https://github.com/user-attachments/assets/c4bbbf21-919d-4260-ade3-cc18e7045bbb" />
+ <img width="601" height="466" alt="scan config" src="https://github.com/user-attachments/assets/c4bbbf21-919d-4260-ade3-cc18e7045bbb" />
 
 - Authentication for the windows virtual machine login was added for an authenticated scan
 
 <img width="532" height="267" alt="credentials for scan" src="https://github.com/user-attachments/assets/5cc5d0ed-0ad5-401d-b669-41eaea1b4ea3" />
 
 - The Compliance section was configured next by selecting the Windows 10 STIG v3r4 audit version.
-Compliance Check
-- <img width="239" height="119" alt="compliance" src="https://github.com/user-attachments/assets/44f8ce65-a7a5-4b6c-8b99-d2a578aad445" />
+  
+  <img width="239" height="119" alt="compliance" src="https://github.com/user-attachments/assets/44f8ce65-a7a5-4b6c-8b99-d2a578aad445" />
+
 <img width="1261" height="131" alt="compliande audit" src="https://github.com/user-attachments/assets/5a33064b-1dfd-462b-b3fe-b1a59d8f4bf9" />
 
 
 - All plugins were enabled
-- <img width="1250" height="445" alt="plugins 4 scan" src="https://github.com/user-attachments/assets/63f9ccb9-e19c-47a4-9f6e-9561f9f55810" />
+  <img width="1250" height="445" alt="plugins 4 scan" src="https://github.com/user-attachments/assets/63f9ccb9-e19c-47a4-9f6e-9561f9f55810" />
 
-#Scan Report 
+
+# Scan Report 
+<img width="802" height="720" alt="Screenshot 2025-08-02 at 5 01 08 PM" src="https://github.com/user-attachments/assets/b022c4e8-78f5-4ae3-8107-d930a5764f70" />
 
 
 
