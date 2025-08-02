@@ -49,10 +49,17 @@ Compliance Check
 #Scan Report 
 
 # Investigating and remediating
-- Once scan was completed the Microsoft 3D Viewer was the highest vulnerability.
 - The scan identified that the guest account was undisabled and the administrator account based on the failed audit complicance check
 -  <img width="1176" height="222" alt="wintrust" src="https://github.com/user-attachments/assets/364e6c42-ac3b-4f07-b026-bf0222b271d4" />
 <img width="769" height="25" alt="admin not disable" src="https://github.com/user-attachments/assets/4a83bca2-0a5b-4878-b4a3-cc579507dd09" />
 <img width="963" height="26" alt="guest not disabled" src="https://github.com/user-attachments/assets/40420dd8-a336-4a93-b578-86cdf66c3b78" />
 
+Script was executed in Powershell ISE in administrator mode to remediate the vulnerabilies and harden the system
 
+<img width="893" height="503" alt="fireeall script" src="https://github.com/user-attachments/assets/be47de9d-2d3c-4f4e-aa85-0bed70211133" />
+
+<img width="890" height="504" alt="guest script" src="https://github.com/user-attachments/assets/c7c6a353-e974-4d3a-b7b3-5f35af2298a8" />
+
+<img width="890" height="496" alt="admin script" src="https://github.com/user-attachments/assets/647426d9-b7bd-4505-aada-8db92868936c" />
+
+VM was then rebooted and the scan was done again and showed that the system was succesffuly hardened and the firewall, admin and guest account bulnerabilies were rectfiied 
